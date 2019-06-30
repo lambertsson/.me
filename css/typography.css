@@ -6,11 +6,10 @@ h3,
 h4,
 h5,
 p,
-a {
+a,
+body {
     color: var(--color-text);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
