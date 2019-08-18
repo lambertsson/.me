@@ -3,4 +3,5 @@
 
 body {
     background-color: var(--color-background);
+    padding: 0.5rem 1rem;
 }
