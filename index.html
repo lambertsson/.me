@@ -13,21 +13,29 @@
             </nav>
         </header>
         <h4 style="max-width: 970px;">
-            I'm Christoffer Lambertsson, a <a>fullstack developer</a> living in Stockholm, currently working for
+            I'm Christoffer Lambertsson, a <a href="">fullstack developer</a> living in Stockholm, currently working for
             Netlight.
         </h4>
         <div style="display: grid; grid-template-columns: 1fr 1fr;">
             <div>
-                <h5>Currently</h5>
-                <span>NETLIGHT IMAGE</span>
+                <h5 style="margin-bottom: 1rem;">Currently</h5>
+                <img style="width: 180px;" src="icons/netlight-logo.svg" />
             </div>
             <div>
-                <h5>Previously</h5>
-                <span>XLENT IMAGE</span>
+                <h5 style="margin-bottom: 1rem;">Previously</h5>
+                <img
+                    style="width: 150px; padding: 0.5rem; background: rgba(0,0,0, 0.5);"
+                    src="icons/xlent-logo__white.svg"
+                />
             </div>
         </div>
         <article>
-            <h1>WORK GOES HERE</h1>
+            <h3>Highlighted work</h3>
+            <ul id="engagements-highlighted"></ul>
+        </article>
+        <article>
+            <h3>More</h3>
+            <ul id="engagements-more"></ul>
         </article>
         <footer>
             <div>
@@ -47,4 +55,6 @@
             </ul>
         </footer>
     </body>
+    <script src="data/engagements.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </html>
