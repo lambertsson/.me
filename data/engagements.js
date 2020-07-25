@@ -1,16 +1,17 @@
 const engagements = [
-    {
-        title: "Exciting work title",
-        description: "A short description if needed",
-        imageUrl: "",
-        highlight: true,
-        year: 2019
-    },
-    {
-        title: "Less exciting work title",
-        description: "A short description if needed",
-        imageUrl: "",
-        highlight: false,
-        year: 2018
-    }
+  {
+    title: "Loyalty program at bank",
+    description: "A short description if needed",
+    imageUrl: "icons/image-solid.svg",
+    highlight: true,
+    year: 2019
+  },
+  {
+    title: "E-sports streaming service",
+    description:
+      "Fullstack engagement helping an e-sports streaming start-up level up their gamification and launch their new betting hub.",
+    imageUrl: "icons/image-solid.svg",
+    highlight: true,
+    year: 2018
+  }
 ];

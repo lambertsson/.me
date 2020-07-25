@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lambertsson.me</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-    </head>
-    <body>
-        <header style="display: flex;">
-            <span>LOGO</span>
-            <nav style="margin-left: auto;">
-                <a href="#highlighted-work">work</a>
-                <a href="#contact">contact</a>
-            </nav>
-        </header>
-        <h4 style="max-width: 970px;">
-            I'm Christoffer Lambertsson, a <a href="#highlighted-work">fullstack developer</a> living in Stockholm,
-            currently working for Netlight.
-        </h4>
-        <div style="display: grid; grid-template-columns: 1fr 1fr;">
-            <div>
-                <h5 style="margin-bottom: 1rem;">Currently</h5>
-                <img style="width: 180px;" src="icons/netlight-logo.svg" />
-            </div>
-            <div>
-                <h5 style="margin-bottom: 1rem;">Previously</h5>
-                <img
-                    style="width: 150px; padding: 0.5rem; background: rgba(0,0,0, 0.5);"
-                    src="icons/xlent-logo__white.svg"
-                />
-            </div>
-        </div>
-        <article id="highlighted-work">
-            <h3>Highlighted work</h3>
-            <ul id="engagements-highlighted"></ul>
-        </article>
-        <article>
-            <h3>More</h3>
-            <ul id="engagements-more"></ul>
-        </article>
-        <footer>
-            <div id="contact">
-                <h4 style="display: inline-block">Want to get it touch?</h4>
-                <a href="mailto:hello@lambertsson.me" class="h4">Let's talk.</a>
-            </div>
-            <ul class="footer-links">
-                <li>
-                    <a href="https://github.com/lambertsson">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/christofferlambertsson/">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="mailto:hello@lambertsson.me">Email</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-    <script src="data/engagements.js"></script>
-    <script src="js/index.js" type="text/javascript"></script>
+  <head>
+    <title>Lambertsson.me</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png" />
+  </head>
+  <body>
+    <header style="display: flex;">
+      <span style="display: none;">LOGO</span>
+      <nav style="margin-left: auto;">
+        <a href="#highlighted-work" style="display: none;">work</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <h4 style="max-width: 970px;">
+      I'm Christoffer Lambertsson, a <a href="#highlighted-work">fullstack developer</a> living in Stockholm, currently
+      working for Netlight.
+    </h4>
+    <div class="workplaces">
+      <div>
+        <h5 style="margin-bottom: 1rem;">Currently</h5>
+        <img style="width: 180px;" src="icons/netlight-logo.svg" />
+      </div>
+      <div>
+        <h5 style="margin-bottom: 1rem;">Previously</h5>
+        <img
+          style="width: 150px; padding: 0.5rem; background: rgba(9,5,16, 1); border-radius: 6px;"
+          src="icons/xlent-logo__white.svg"
+        />
+      </div>
+    </div>
+    <article id="highlighted-work" style="display: none;">
+      <h3>Highlighted work</h3>
+      <ul id="engagements-highlighted" class="engagements"></ul>
+    </article>
+    <footer>
+      <div id="contact">
+        <h4 style="display: inline">Want to get it touch?</h4>
+        <a href="mailto:hello@lambertsson.me" class="h4">Let's talk.</a>
+      </div>
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/lambertsson">GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/christofferlambertsson/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="mailto:hello@lambertsson.me">Email</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script src="data/engagements.js"></script>
+  <script src="js/index.js" type="text/javascript"></script>
 </html>
